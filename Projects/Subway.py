@@ -1,4 +1,4 @@
-# Total board & exit for all stations for each hour
+# Total board & exit for all stations in the city of Seoul for every hour
 
 
 import csv

@@ -10,7 +10,7 @@ df = df.div(df['총인구수'], axis=0)
 del df['총인구수'], df['연령구간인구수']
 df = df.fillna(0)    # changes NaN values to 0 in df
 
-name = input('Enter the name of district : ')
+name = input('Enter the name of district in Korean (ex. 문래): ')
 a = df.index.str.contains(name)
 df2 = df[a]
 
